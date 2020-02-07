@@ -1,0 +1,143 @@
+.header {
+  padding: 150px;
+  position: absolute;
+  left: 100px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Georgia", Arial, serif;
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  top: 50px;
+  left: 75px;
+  background-color: #F57F17;
+  border-radius: 50%;
+  display: block;
+  position: fixed;
+}
+.fixedBox {
+  position: fixed;
+  top: 0px;
+  left: 0%;
+  margin: auto; 
+  height: 150px;
+  width: 100%;
+  background-color: #26A69A;
+  border: solid 2px #004D40;
+}
+.row1 {
+  height: 75px;
+  width: 15%;
+  position: relative;
+  margin-right: -200px;
+  background-color: #558B2F;
+  overflow: auto;
+  border: solid 2px #558B2F;
+  padding: 20px;
+  z-index: -1000;
+  text-align: center;
+  float: left;
+  display: block;
+}
+#box1 {
+  top: 250px;
+  left: 250px;
+}
+#box2 {
+  top: 250px;
+  left: 500px;
+}
+#box3 {
+  top: 250px;
+  left: 750px;
+}
+.row2 {
+  height: 75px;
+  width: 187px;
+  position: relative;
+  margin-right: -200px;
+  background-color: #9E9D24;
+  overflow: auto;
+  border: solid 2px #9E9D24;
+  padding: 20px;
+  z-index: -1000;
+  text-align: center;
+  float: left;
+  display: block;
+}
+
+#box4 {
+  top: 400px;
+  left: 157px;
+}
+#box5 {
+  top: 400px;
+  left: 407px;
+}
+#box6 {
+  top: 400px;
+  left: 657px;
+}
+.row3 {
+  height: 75px;
+  width: 15%;
+  position: relative;
+  margin-right: -200px;
+  background-color: #F9A825;
+  overflow: auto;
+  border: solid 2px #F9A825;
+  padding: 20px;
+  z-index: -1000;
+  text-align: center;
+  float: left;
+  display: block;
+}
+#box7 {
+  top: 550px;
+  left: 345px;
+}
+#box8 {
+  top: 700px;
+  left: 314px;
+}
+#box9 {
+  top: 851px;
+  left: 283px;
+}
+
+.chatBox {
+  height: 40px;
+  width: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #BF360C;
+  padding: 2px;
+  text-align: center;
+  margin-right: 4px;
+  border: solid 2px #BF360C;
+}
+.footer {
+  position: absolute;
+  left: 0px;
+  bottom: -700px;
+  margin: auto; 
+  height: 90px;
+  width: 100%;
+  background-color: #80CBC4;
+  border: solid 2px #00897B;
+  padding: 10px;
+  text-align: center;
+  z-index: -1000;
+  font-family: "Georgia", Arial, serif;
+}
+.cumbie {
+  padding: 150px;
+  position: absolute;
+  left: 412px;
+  bottom: -650px;
+  text-align: left;
+  font-family: "Georgia", Arial, serif;
+  z-index: -1000;
+}
