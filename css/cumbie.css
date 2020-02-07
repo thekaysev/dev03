@@ -1,0 +1,10 @@
+* {
+ border: solid 2px red; 
+ margin: 7px;  
+ background-color:lightgrey;
+ padding: 7px; 
+}
+
+body {
+  background-color:#fff;
+}
